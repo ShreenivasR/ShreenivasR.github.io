@@ -5,12 +5,12 @@
 ---
 
 ## 🔍 Professional Summary
-Results-oriented Mechanical Engineering graduate with a Master of Applied Science (MASc) specializing in **Fluid-Structure Interaction (FSI)**, **Flow-Induced Vibration (FIV)**, and **Experimental Fluid Dynamics**. Experienced in utilizing high-precision experimental tools and computational methods to solve complex fluid-flow challenges in dual-step cylinder configurations.
+Results-oriented Mechanical Engineering graduate with a Master of Applied Science (MASc) specializing in **Fluid-Structure Interaction (FSI) of cylinders** and **Experimental Fluid Dynamics**. Experienced in utilising high-precision experimental tools and computational methods to solve complex fluid-flow challenges.
 
 ---
 
 ## 🚀 Key Research & Technical Achievements
-* **Experimental Optimization:** Optimized dual-step cylinder geometries, achieving a **50% reduction in lift force** and a **5% reduction in drag** through rigorous experimental campaigns.
+* **Experimental Optimization:** Optimized dual-step cylinder geometries, achieving a **50% reduction in lift force** and a **5% reduction in drag** across various turbulence levels.
 * **Computational Modeling:** Developed a machine learning-based model for experimental fluid datasets that achieved an **8% lower reconstruction error** than standard Proper Orthogonal Decomposition (POD).
 * **Technical Proficiency:** Extensive experience with **Particle Image Velocimetry (PIV)**, **hotwire anemometry**, and **spectral analysis** for robust data processing.
 
@@ -18,16 +18,13 @@ Results-oriented Mechanical Engineering graduate with a Master of Applied Scienc
 
 ## 🛠 Technical Toolkit
 * **Fluid Dynamics:** Fluid-Structure Interaction (FSI), Vortex-Induced Vibration (VIV), Flow-Induced Vibration (FIV), Turbulent wake dynamics.
-* **Programming & Data:** Python (ML/POD Modeling), MATLAB, Spectral Analysis.
-* **Technical Writing:** Advanced **LaTeX** proficiency (including **BibLaTeX** for research management).
-* **Core Competencies:** Experimental design, high-precision PIV measurements, and data-driven flow optimization.
+* **Programming & Data:** Python, MATLAB, OpenFOAM, C/C++.
 
 ---
 
 ## 📂 Professional Background & Education
-* **Master of Applied Science (MASc) in Mechanical Engineering** | [University Name], Ontario
+* **Master of Applied Science (MASc) in Mechanical Engineering** | McMaster University, Ontario
 * **CNA2026 Conference (Ottawa):** Presented research findings and engaged with industry stakeholders in the nuclear sector.
-* **Professional Engineering Path:** Committed to obtaining **P.Eng. licensure in Ontario**.
 
 ---
 
