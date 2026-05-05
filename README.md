@@ -32,7 +32,7 @@ Results-oriented Mechanical Engineering graduate with a Master of Applied Scienc
 ---
 
 ## 📄 CV & Contact
-* [Download Professional CV (PDF)](./assets/shreenivas_resume.pdf)
+* [Download Professional CV (PDF)](./Shreenivas_Resume.pdf)
 * [LinkedIn](https://linkedin.com/in/rshreeni10)
 * [Email](mailto:shreenivas.r.ca@gmail.com)
 
