@@ -1,177 +1,109 @@
-<!DOCTYPE HTML>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<h1>Shreenivas Rangarajan</h1>
-<p>Mechanical Engineer | MASc Graduate | Eligible for P.Eng.</p>
-<p>
-  Specializing in fluid mechanics, aerodynamics, and structural analysis. 
-  Expertise in bridging high-fidelity numerical simulations (CFD/FEA) with physical wind tunnel validation.
-</p>
-<ul class="actions">
-  <li><a href="#projects" class="button scrolly">View Portfolio</a></li>
-  <li><a href="mailto:shreenivas.r.ca@gmail.com" class="button alt">Contact Me</a></li>
-</ul>
-	<body class="landing is-preload">
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreenivas Rangarajan | Mechanical Engineer</title>
+    <!-- Tailwind Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Custom configurations (like custom colors or dark mode)
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandGreen: '#2ecc71',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<nav class="sticky top-0 z-50 w-full border-b border-zinc-800 bg-zinc-950/85 backdrop-blur-md">
+    <div class="max-w-3xl mx-auto px-6 h-14 flex items-center justify-between text-xs font-medium">
+        <!-- Initials / Logo -->
+        <a href="#" class="text-zinc-200 hover:text-brandGreen transition font-bold tracking-wider">SR \</a>
+        
+        <!-- Navigation Links -->
+        <div class="flex items-center space-x-6 text-zinc-400">
+            <a href="#about" class="hover:text-zinc-200 transition">About</a>
+            <a href="#skills" class="hover:text-zinc-200 transition">Toolkit</a>
+            <a href="#projects" class="hover:text-zinc-200 transition">Projects</a>
+            <a href="#experience" class="hover:text-zinc-200 transition">Experience</a>
+        </div>
+    </div>
+</nav>
+<body class="bg-zinc-950 text-zinc-100 font-sans antialiased selection:bg-brandGreen selection:text-zinc-900">
+    
+    <main class="max-w-3xl mx-auto px-6 py-20 space-y-16">
+    
+    <!-- Profile Header -->
+     <header class="space-y-4">
+        <div class="space-y-1">
+        <!--Text Content Area-->
+        <div class="flex flex-wrap items-center gap-3">
+            
+                <h1 class="text-3xl font-bold tracking-tight text-zinc-50">Shreenivas Rangarajan</h1>
+        </div>
+                <p class="text-sm font-medium text-zinc-400">MASc Mechanical Engineering</p>
+        
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+            <p>I bridge the gap between high-fidelity numerical simulations (CFD/FEA) and physical wind tunnel validation by leveraging a strong foundation in experimental fluid mechanics, data-driven analysis, and numerical analysis. <!--Specializing in fluid mechanics, aerodynamics, and structural analysis.--> 
+            </p>
+            
+            <img 
+            src="Picture.png" 
+            alt="Shreenivas Rangarajan" 
+            style="width: 200px; margin-left:20px; border-radius: 12px;"
+        />
+        </div>
+            </div>
+        
+        
+        <div class="flex space-x-4 text-xs text-zinc-500 pt-2">
+            <a href="mailto:shreenivas.r.ca@gmail.com" class="hover:text-brandGreen transition">shreenivas.r.ca@gmail.com</a>
+            <span>·</span>
+            <a href="https://linkedin.com/in/rshreeni10" class="hover:text-brandGreen transition">linkedin.com/in/rshreeni10</a>
+    
+        </div>
+        <!-- Image Inset Container (Locked Right) -->
+    </header>
+    
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+    <!-- Key Metrics Highlight Row -->
+    <section class="grid grid-cols-3 gap-4 border-y border-zinc-800 py-6">
+        <div class="text-center sm:text-left">
+            <div class="text-2xl font-bold text-brandGreen">50%</div>
+            <div class="text-xs text-zinc-500">Lift Force Reduction</div>
+        </div>
+        <div class="text-center sm:text-left">
+            <div class="text-2xl font-bold text-brandGreen">±0.01 mm</div>
+            <div class="text-xs text-zinc-500">GD&T Fab Precision</div>
+        </div>
+        <div class="text-center sm:text-left">
+            <div class="text-2xl font-bold text-brandGreen">10%</div>
+            <div class="text-xs text-zinc-500">Chassis Mass Saved</div>
+        </div>
+    </section>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Spectral</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
+    <!-- Skills Matrix -->
+    <section class="space-y-4">
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-zinc-400">Technical Toolkit</h2>
+        <div class="flex flex-wrap gap-2">
+            <!-- Software / Solvers -->
+            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">OpenFOAM</span>
+            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">ANSYS Workbench</span>
+            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">ABAQUS</span>
+            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">SolidWorks</span>
+            <!-- Programming -->
+            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">MATLAB</span>
+            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">Python</span>
+            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">TensorFlow</span>
+            <!-- Hardware -->
+            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">PIV & DAQ</span>
+            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">Hot-wire Anemometry</span>
+        </div>
+    </section>
 
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>Spectral</h2>
-							<p>Another fine responsive<br />
-							site template freebie<br />
-							crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>
-							<ul class="actions special">
-								<li><a href="#" class="button primary">Activate</a></li>
-							</ul>
-						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
-					</section>
-
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Arcu aliquet vel lobortis ata nisl<br />
-								eget augue amet aliquet nisl cep donec</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="icons major">
-								<li><span class="icon fa-gem major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon solid fa-code major style3"><span class="label">Dolor</span></span></li>
-							</ul>
-						</div>
-					</section>
-
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-					</section>
-
-				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-headphones-alt">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
-						</div>
-					</section>
-
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
-							</header>
-							<ul class="actions stacked">
-								<li><a href="#" class="button fit primary">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
-							</ul>
-						</div>
-					</section>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
