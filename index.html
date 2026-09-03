@@ -19,23 +19,23 @@
         }
     </script>
 </head>
-<nav class="sticky top-0 z-50 w-full border-b border-zinc-800 bg-zinc-950/85 backdrop-blur-md">
+<nav class="z-50 w-full border-b border-zinc-800 bg-zinc-950/85 backdrop-blur-md">
     <div class="max-w-3xl mx-auto px-6 h-14 flex items-center justify-between text-xs font-medium">
         <!-- Initials / Logo -->
-        <a href="#" class="text-zinc-200 hover:text-brandGreen transition font-bold tracking-wider">SR \</a>
+        <a href="#" class="text-brandGreen font-bold tracking-wider">SR \</a>
         
         <!-- Navigation Links -->
         <div class="flex items-center space-x-6 text-zinc-400">
-            <a href="#about" class="hover:text-zinc-200 transition">About</a>
-            <a href="#skills" class="hover:text-zinc-200 transition">Toolkit</a>
-            <a href="#projects" class="hover:text-zinc-200 transition">Projects</a>
+            <!--<a href="#about" class="hover:text-zinc-200 transition">About</a>-->
+            <a href="#skills" class="hover:text-zinc-200 transition">Skills</a>
             <a href="#experience" class="hover:text-zinc-200 transition">Experience</a>
+            <a href="#projects" class="hover:text-zinc-200 transition">Projects</a>
         </div>
     </div>
 </nav>
-<body class="bg-zinc-950 text-zinc-100 font-sans antialiased selection:bg-brandGreen selection:text-zinc-900">
+<body class="bg-zinc-950 text-zinc-400 font-sans antialiased selection:bg-brandGreen selection:text-zinc-900">
     
-    <main class="max-w-3xl mx-auto px-6 py-20 space-y-16">
+    <main class="w-full mx-auto px-6 py-20 space-y-16">
     
     <!-- Profile Header -->
      <header class="space-y-4">
@@ -44,11 +44,12 @@
         <div class="flex flex-wrap items-center gap-3">
             
                 <h1 class="text-3xl font-bold tracking-tight text-zinc-50">Shreenivas Rangarajan</h1>
+                
         </div>
-                <p class="text-sm font-medium text-zinc-400">MASc Mechanical Engineering</p>
+                <div class="text-sm font-medium text-zinc-400">MASc Mechanical Engineering</div>
         
         <div style="display: flex; align-items: center; justify-content: space-between;">
-            <p>I bridge the gap between high-fidelity numerical simulations (CFD/FEA) and physical wind tunnel validation by leveraging a strong foundation in experimental fluid mechanics, data-driven analysis, and numerical analysis. <!--Specializing in fluid mechanics, aerodynamics, and structural analysis.--> 
+            <p style="text-align: justify;">I'm a recent MASc Mechanical Engineering graduate from <span style="color: rgb(0,255,127);="> McMaster University</span> with research experience in experimental fluid mechanics and fluid-structure interactions. I bridge the gap between<span style="color: rgb(0,255,127);"> experimental validation and numerical simulations</span> by leveraging a strong foundation in experimental fluid mechanics, data-driven and numerical analysis. <!--Specializing in fluid mechanics, aerodynamics, and structural analysis.--> 
             </p>
             
             <img 
@@ -60,50 +61,372 @@
             </div>
         
         
-        <div class="flex space-x-4 text-xs text-zinc-500 pt-2">
-            <a href="mailto:shreenivas.r.ca@gmail.com" class="hover:text-brandGreen transition">shreenivas.r.ca@gmail.com</a>
-            <span>·</span>
-            <a href="https://linkedin.com/in/rshreeni10" class="hover:text-brandGreen transition">linkedin.com/in/rshreeni10</a>
-    
-        </div>
-        <!-- Image Inset Container (Locked Right) -->
+        <div class="flex items-center space-x-4 pt-2">
+    <!-- Email Icon Button -->
+    <a href="mailto:shreenivas.r.ca@gmail.com" 
+       class="text-zinc-500 hover:text-brandGreen transition-colors duration-200" 
+       aria-label="Email Shreenivas">
+        <svg class="w-5 h-6" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25H4.5A2.25 2.25 0 0 1 2.25 17.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5H4.5a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"></path>
+        </svg>
+    </a>
+
+    <!-- LinkedIn Icon Button -->
+    <a href="https://linkedin.com/in/rshreeni10" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       class="text-zinc-500 hover:text-brandGreen transition-colors duration-200" 
+       aria-label="LinkedIn Profile">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+    </a>
+    <div class="p-1 bg-zinc-1000 border border-zinc-500 rounded-md hover:text-brandGreen transition-colors duration-200">
+    <a class="text-zinc-500 hover:text-brandGreen transition-colors duration-200" href="https://scholar.google.com/citations?user=_2Pwj9MAAAAJ&hl=en&authuser=3" target="_blank">Google Scholar</a>
+    </div>
+</div>
+
     </header>
     
 
-    <!-- Key Metrics Highlight Row -->
-    <section class="grid grid-cols-3 gap-4 border-y border-zinc-800 py-6">
-        <div class="text-center sm:text-left">
-            <div class="text-2xl font-bold text-brandGreen">50%</div>
-            <div class="text-xs text-zinc-500">Lift Force Reduction</div>
-        </div>
-        <div class="text-center sm:text-left">
-            <div class="text-2xl font-bold text-brandGreen">±0.01 mm</div>
-            <div class="text-xs text-zinc-500">GD&T Fab Precision</div>
-        </div>
-        <div class="text-center sm:text-left">
-            <div class="text-2xl font-bold text-brandGreen">10%</div>
-            <div class="text-xs text-zinc-500">Chassis Mass Saved</div>
-        </div>
-    </section>
 
     <!-- Skills Matrix -->
-    <section class="space-y-4">
-        <h2 class="text-xs font-semibold uppercase tracking-wider text-zinc-400">Technical Toolkit</h2>
-        <div class="flex flex-wrap gap-2">
-            <!-- Software / Solvers -->
-            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">OpenFOAM</span>
-            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">ANSYS Workbench</span>
-            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">ABAQUS</span>
-            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">SolidWorks</span>
-            <!-- Programming -->
-            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">MATLAB</span>
-            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">Python</span>
-            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">TensorFlow</span>
-            <!-- Hardware -->
-            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">PIV & DAQ</span>
-            <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-2.5 py-1 rounded">Hot-wire Anemometry</span>
-        </div>
-    </section>
+     <section id="skills" class="space-y-4">
+  <h2 class="text-xl font-semibold uppercase tracking-wider text-zinc-400">Skills</h2>
+  <div class="w-full max-w-6xl mx-auto p-4 bg-[#090a0f] rounded-xl border border-zinc-800/80 shadow-2xl font-mono text-xs">
+  <div class="grid grid-cols-1 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-zinc-800/80">
+    
+    <!-- Column 1: Experimental Methods -->
+    <div class="p-6 space-y-3">
+      <h3 class="text-[#2ecc71] font-bold tracking-wider uppercase mb-5">Experimental Techniques</h3>
+      <ul class="space-y-3">
+        <li class="text-zinc-100 font-medium">High speed PIV lasers and cameras</li>
+        <li class="text-zinc-100 font-medium">Hot-wire anemometry</li>
+        <li class="text-zinc-100 font-medium">Force sensors</li>
+        <li class="text-zinc-100 font-medium">Wind/water channels</li>
+        <!-- Faded/Muted items -->
+        <li class="text-zinc-400">Pitot sensors</li>
+        <li class="text-zinc-400">Displacement sensors</li>
+      </ul>
+    </div>
 
+    <!-- Column 2: Software stack -->
+    <div class="p-6 space-y-3">
+      <h3 class="text-[#2ecc71] font-bold tracking-wider uppercase mb-5">Software/Packages</h3>
+      <ul class="space-y-3">
+        <li class="text-zinc-100 font-medium">Solidworks</li>
+        <li class="text-zinc-100 font-medium">AutoCAD</li>
+        <li class="text-zinc-100 font-medium">OpenFOAM</li>
+        <li class="text-zinc-100 font-medium">ParaView</li>
+        <li class="text-zinc-100 font-medium">ANSYS Fluent</li>
+        <li class="text-zinc-100 font-medium">ABAQUS FEA</li>
+        <!-- Faded/Muted items -->
+        <li class="text-zinc-400">TensorFlow</li>
+        <li class="text-zinc-400">PyTorch</li>
+        <li class="text-zinc-400">CUDA/HIP/ROCm</li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Programming Languages -->
+    <div class="p-6 space-y-3">
+      <h3 class="text-[#2ecc71] font-bold tracking-wider uppercase mb-5">Programming Languages</h3>
+      <ul class="space-y-3">
+        <li class="text-zinc-100 font-medium">C/C++</li>
+        <li class="text-zinc-100 font-medium">MATLAB</li>
+        <li class="text-zinc-100 font-medium">Python</li>
+        <li class="text-zinc-100 font-medium">LaTeX</li>
+        <!-- Faded/Muted items -->
+        <li class="text-zinc-400">Bash</li>
+        <li class="text-zinc-400">CMake</li>
+      </ul>
+    </div>
+
+    <!-- Column 4: Engineering Standards/Codes-->
+    <div class="p-6 space-y-3">
+      <h3 class="text-[#2ecc71] font-bold tracking-wider uppercase mb-5">Engineering Design Standards & Codes</h3>
+      <ul class="space-y-3">
+        <li class="text-zinc-100 font-medium">ASME Section III Div 1 (Nuclear)</li>
+        <li class="text-zinc-100 font-medium">ASME Section 8 (Pressure Vessel)</li>
+        <li class="text-zinc-100 font-medium">ASME Y14.5 (GD&T)</li>
+        <li class="text-zinc-100 font-medium">IEC 60529 (IP Rating)</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+</section>
+
+<!-- Experience -->
+     <section id="experience" class="space-y-4">
+  <h2 class="text-xl font-semibold uppercase tracking-wider text-zinc-400">Experience</h2>
+  <div class="w-full max-w-8xl ml-0 pl-2 bg-[#090a0f] font-mono text-xs">
+  
+  <!-- Main Grid Container: Date column | Content column -->
+  <div class="grid grid-cols-1 md:grid-cols-[90px,1fr] gap-x-4 gap-y-10">
+    
+    <!-- Left Column: Date Range (sticky on scroll) -->
+    <div class="h-fit space-y-0.5 text-left">
+      <div class="text-zinc-400 font-medium">Sep 2023</div>
+      <div class="text-zinc-500">&#8211; Apr 2026</div>
+    </div>
+
+    <!-- Right Column: All Content -->
+    <div class="space-y-15">
+      
+      <!-- Header Area -->
+      <header class="space-y-3">
+        <!-- Accent green header -->
+        <h3 class="text-[#2ecc71] font-bold tracking-wider uppercase">
+          McMaster University &#8226; MECA Lab
+        </h3>
+        
+        <!-- Large Title -->
+        <h1 class="text-2xl font-light text-zinc-100 tracking-tight">
+          Graduate Research Assistant &#8212; Experimental Fluid Dynamics
+        </h1>
+      </header>
+
+      <!-- Workstream 1: Dual Step cylinders -->
+      <div class="space-y-4">
+        <p class="text-zinc-400 leading-relaxed text-justify">
+          <strong class="text-zinc-100 font-semibold">Flow over Dual Step Cylinders:</strong> Wind tunnel experiments at the <span class="text-[#2ecc71] font-medium">University of Waterloo</span> &#8212; Optimised geometric modifications for cylindrical structures with applications in heat exchanger, nuclear and offshore industry, reducing fluctuating forces by
+          <span class="text-[#2ecc71] font-medium">50%+</span> 
+          by analysing the experimental wake velocity and forcing data. Designed and fabricated custom wind tunnel experimental components by utilising GD&T principles to achieve tolerances of ±0.01 mm via lathe, milling, and drilling operations. Presented at various conferences.
+        </p>
+      </div>
+
+      <!-- Workstream 2: VIV -->
+      <div>
+        <p class="text-zinc-400 leading-relaxed text-justify">
+          <strong class="text-zinc-100 font-semibold">Cylinder undergoing VIV:</strong> 
+          Water channel experiments at the
+          <a href="#" class="text-[#2ecc71] font-medium hover:underline">University of Calgary</a> 
+          &#8212; Analysed a uniform cylinder undergoing VIV to investigate hysteresis resulting in bi-stability at similar flow velocities. Presented at various conferences. Research article under preparation.
+        </p>
+      </div>
+
+      <!-- Tags / Skill Pills Section -->
+      <footer class="flex flex-wrap gap-2 pt-6 border-t border-zinc-900">
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">PIV</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Force sensor</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Displacement sensor</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Wind/water channel</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Active turbulence grid</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">MATLAB</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Proper Orthogonal Decomposition</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Python</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Digital Signal Processing</span>
+      </footer>
+
+    </div>
+
+    <!-- Undergrad-->
+    <div class="h-fit space-y-0.5 md:text-left">
+      <div class="text-zinc-400 font-medium">Sep 2021</div>
+      <div class="text-zinc-500">&#8211; Mar 2023</div>
+    </div>
+
+    <!-- Right Column: All Content -->
+    <div class="space-y-15">
+      
+      <!-- Header Area -->
+      <header class="space-y-3">
+        <!-- Accent green header -->
+        <h3 class="text-[#2ecc71] font-bold tracking-wider uppercase">
+          Shiv Nadar University &#8226; India
+        </h3>
+        
+        <!-- Large Title -->
+        <h1 class="text-2xl font-light text-zinc-100 tracking-tight">
+          Research Assistant &#8212; Experimental Fluid-structure Interactions
+        </h1>
+      </header>
+
+      <!-- Research Assistantship -->
+      <div class="space-y-4">
+        <p class="text-zinc-400 leading-relaxed">
+          <strong class="text-zinc-100 font-semibold text-justify">Flow over Airfoil:</strong> Developed a semi-empirical stall flutter model to accurately predict premature stability loss via transient growth by analysing experimentally obtained aerodynamic results. Identified the non-normal nature of stall flutter by quickly learning and utilising pseudospectral analysis. Published work in <strong class="text-zinc-100 font-semibold"><a href="https://pubs.aip.org/aip/cha/article-abstract/33/3/031103/2881144/Non-normality-and-transient-growth-in-stall?redirectedFrom=fulltext">Chaos Journal</a></strong>.
+        </p>
+      </div>
+      
+    <!-- Undergrad -->
+     <p class="text-xl text-zinc-400 leading-relaxed">
+        Wind tunnel experiments performed during undergrad
+      <div class="space-y-4">
+        <p class="text-zinc-400 leading-relaxed text-justify">
+          <strong class="text-zinc-100 font-semibold">Flow over Airfoil:</strong> Characterised the synchronisation boundaries of a pitch-plunge aeroelastic system to predict and mitigate
+stall flutter through the execution of targeted wind tunnel experiments. Published work in <strong class="text-zinc-100 font-semibold"><a href="https://pubs.aip.org/aip/cha/article-abstract/32/7/073114/2835842/Experimental-investigation-on-the-synchronization?redirectedFrom=fulltext">Chaos Journal</a></strong>.
+        </p>
+      </div>
+
+      <!-- Tags / Skill Pills Section -->
+      <footer class="flex flex-wrap gap-2 pt-6 border-t border-zinc-900">
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Wind tunnel</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Displacement sensor</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">MATLAB</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Python</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Dynamic Mode Decomposition</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Digital Signal Processing</span>
+      </footer>
+    </div>   
+
+    <!-- CFD internship-->
+    <div class="h-fit space-y-0.5 md:text-left">
+      <div class="text-zinc-400 font-medium">Mar 2022</div>
+      <div class="text-zinc-500">&#8211; May 2022</div>
+    </div>
+
+    <!-- Right Column: All Content -->
+    <div class="space-y-15">
+      
+      <!-- Header Area -->
+      <header class="space-y-3">
+        <!-- Accent green header -->
+        <h3 class="text-[#2ecc71] font-bold tracking-wider uppercase">
+          Paanduv CFD &#8226; India
+        </h3>
+        
+        <h1 class="text-2xl font-light text-zinc-100 tracking-tight">
+          Research Intern &#8212; Simulation of Photocatalytic Hydrogen generation
+        </h1>
+      </header>
+
+      <div class="space-y-4">
+        <p class="text-zinc-400 leading-relaxed">
+          <strong class="text-zinc-100 font-semibold">2D OpenFOAM multiphase simulation:</strong> Developed a custom multiphase solver in OpenFOAM to simulate photocatalytic water splitting reaction for hydrogen generation. Augmented reaction rate based on incident light intensity, combining fluid dynamics with chemical kinetics to evaluate clean energy system performance.
+        </p>
+
+        <footer class="flex flex-wrap gap-2 pt-6 border-t border-zinc-900">
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">OpenFOAM</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">ParaView</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Python</span>
+      </footer>
+      </div>    
+    </div>
+
+    <!-- Andromeida Internship-->
+    <div class="h-fit space-y-0.5 md:text-left">
+      <div class="text-zinc-400 font-medium">Dec 2020</div>
+      <div class="text-zinc-500">&#8211; Feb 2021</div>
+    </div>
+    <div class="space-y-15">
+      <header class="space-y-3">
+        <h3 class="text-[#2ecc71] font-bold tracking-wider uppercase">
+          Andromeida MSL &#8226; India
+        </h3>
+        
+        <h1 class="text-2xl font-light text-zinc-100 tracking-tight">
+          Design Intern &#8212; Waterproof enclosure for underwater ROV 
+        </h1>
+      </header>
+
+      <div class="space-y-4">
+        <p class="text-zinc-400 leading-relaxed">
+          Designed an IP68 waterproof enclosure compliant with IEC 60529 for the electronics of an underwater ROV by utilising O-ring seals and applying DFM principles for injection molding based mass production.
+        </p>
+
+        <footer class="flex flex-wrap gap-2 pt-6 border-t border-zinc-900">
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Solidworks</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">DFM/DFA</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">IP Rating</span>
+      </footer>
+      </div>
+    </div>
+      
+    
+    <!-- UG research assistant-->
+    <div class="h-fit space-y-0.5 md:text-left">
+      <div class="text-zinc-400 font-medium">Oct 2020</div>
+      <div class="text-zinc-500">&#8211; Mar 2021</div>
+    </div>
+
+    <!-- Right Column: All Content -->
+    <div class="space-y-15">
+      
+      <!-- Header Area -->
+      <header class="space-y-3">
+        <!-- Accent green header -->
+        <h3 class="text-[#2ecc71] font-bold tracking-wider uppercase">
+          Shiv Nadar University &#8226; India
+        </h3>
+        
+        <h1 class="text-2xl font-light text-zinc-100 tracking-tight">
+          UG Research Assistant &#8212; Simulation of cavitation over hydrofoil
+        </h1>
+      </header>
+
+      <div class="space-y-4">
+        <p class="text-zinc-400 leading-relaxed">
+          <strong class="text-zinc-100 font-semibold">2D OpenFOAM multiphase simulation:</strong> Developed a multiphase solver on OpenFOAM and resolved numerical instabilities to optimise hydrofoil geometry for mitigating cavitation induced structural damage and to extend component lifespan.
+        </p>
+
+        <footer class="flex flex-wrap gap-2 pt-6 border-t border-zinc-900">
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">OpenFOAM</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">ParaView</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Python</span>
+      </footer>
+      </div>    
+    </div>    
+</div>
+</section>
+
+<!--Projects-->
+     <section id="projects" class="space-y-4">
+  <h2 class="text-xl font-semibold uppercase tracking-wider text-zinc-400">Projects</h2>
+<div class="w-full max-w-6xl mx-auto p-4 bg-[#090a0f] rounded-xl border border-zinc-800/80 shadow-2xl font-mono text-xs">
+  <div class="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-zinc-800/80">
+    
+    <!-- Column 1: IAM3D-->
+    <div class="p-3 space-y-3">
+      <h3 class="text-[#2ecc71] font-bold tracking-wider uppercase mb-5">ASME IAM3D</h3>
+      <h4 class="text-zinc-100 font-bold tracking-wider uppercase mb-5">Team Captain</h4>
+      <p>
+        Led a team of 7 freshmen to build a high performance 3D printed racing drone by rapidly bridging their skill gaps in advanced CFD and FEA. Streamlined the structural design loop by utilising iterative DFA/DFAM principles, mitigating early geometric prototype failures to optimise aerodynamic and structural efficiency.
+      </p>
+      <footer class="flex flex-wrap gap-2 pt-6 border-t border-zinc-900">
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Additive Manufacturing</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Solidworks</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">DFM/DFMA/DFAM</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">FEA</span>
+      </footer>
+    </div>
+
+   <!-- Column 2: SAE eBaja-->
+    <div class="p-3 space-y-3">
+      <h3 class="text-[#2ecc71] font-bold tracking-wider uppercase mb-5">SAE eBAJA</h3>
+      <h4 class="text-zinc-100 font-bold tracking-wider uppercase mb-5">Chassis Designer</h4>
+      <p>
+        Executed a rigorous redesign using CAD and FEA that achieved a 10% mass reduction while maintaining structural integrity, achieving 3rd place in the Combined Innovation round out of 280 teams.
+      </p>
+      <footer class="flex flex-wrap gap-2 pt-6 border-t border-zinc-900">
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Welding</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Solidworks</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Machining</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">FEA</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">ANSYS CFD</span>
+      </footer>
+    </div>
+
+    <!-- Column 3: OpenFOAM-->
+    <div class="p-3 space-y-3">
+      <h3 class="text-[#2ecc71] font-bold tracking-wider uppercase mb-5">OpenFOAM Simulations</h3>
+      <h4 class="text-zinc-100 font-bold tracking-wider uppercase mb-5">Personal Project</h4>
+      <p>
+        Designed and analysed nuclear engineering structures like pressure vessel, pipeline in cross-flow subject to thermal and mechanical loads. Used ASME Sec III and Sec VIII for reference as applicable. 
+      </p>
+      <footer class="flex flex-wrap gap-2 pt-6 border-t border-zinc-900">
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">OpenFOAM</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Gmsh</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Python</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">ParaView</span>
+        <span class="px-2.5 py-1.5 bg-[#12141a] border border-zinc-800 text-zinc-500 rounded text-[11px] font-medium tracking-wide">Finite Volume Method</span>
+      </footer>
+    </div>
+
+  </div>
+</div>
+</section>
+
+</main>
 </body>
 </html>
